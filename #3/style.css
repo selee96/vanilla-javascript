@@ -1,0 +1,16 @@
+body {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}

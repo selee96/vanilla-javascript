@@ -33,3 +33,32 @@ player.name = "potato";
 console.log(player.name);
 player.lastName = "pizza";
 console.log(player);
+
+function sayHello(mySister, age) {
+    console.log("Hello my name is " + mySister + " and I'm " + age);
+}
+
+sayHello("selee", 26);
+sayHello("jueun", 25);
+sayHello("kyungeun", 18);
+
+const player2 = {
+    name: "selee",
+    sayhello: function(otherPersonName) {
+        console.log("hello " + otherPersonName + " nice to meet you!");
+    }
+};
+
+player2.sayhello("nico");
+
+const age = 96;
+function calculateKrAge(ageOfForeigner) {
+    return ageOfForeigner + 2;
+}
+
+const krAge = calculateKrAge(age);
+
+console.log(krAge);
+
+const user_age = prompt("How old are you?");
+console.log(user_age);
